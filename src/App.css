@@ -1,0 +1,30 @@
+
+.details_table{
+  border: 1px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  table-layout: fixed;
+  width: 50%;
+  color: rgb(8, 7, 7);
+}
+.search_bar{
+  margin-left: 40%;
+  width: 300px;
+  height: 50px;
+  border-radius: 4px;
+  border: 1px solid rgb(22, 21, 21);
+  background-image: linear-gradient(to right, #3ab5b0 0%, #3d99be 50%, #56317a 100%);
+  color: white;
+}
+td, th {
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+}
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+::placeholder{
+  color: black;
+  opacity: 1;
+}
